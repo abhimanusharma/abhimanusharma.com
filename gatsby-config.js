@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Abhimanu Sharma',
     description:
-      'Abhimanu Sharma is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Abhimanu Sharma is a software engineer specializing in building (and occasionally designing) amazing websites, applications, and exceptional digital experiences.',
     siteUrl: 'https://abhimanusharma.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@_abhimanusharma',
@@ -12,6 +12,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
